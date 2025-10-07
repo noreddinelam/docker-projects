@@ -24,7 +24,7 @@ jobs:
 
       - name: Build Docker image
         run: |
-          docker build -t ${{ secrets.DOCKERHUB_USERNAME }}/flask-app:${{ github.sha }} .
+          docker build -t ${{ secrets.DOCKERHUB_USERNAME }}/flask-app:${{ github.sha }} ./Docker_Project1
 
       - name: Push Docker image
         run: |
