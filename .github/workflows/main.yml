@@ -4,5 +4,5 @@ on:
     branches: [main]
 
 jobs:
-  build:
+  call-sub-workflow:
     uses: ./Docker_Project1/.github/workflows/docker-build-push.yml
