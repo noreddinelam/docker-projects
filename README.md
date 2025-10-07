@@ -11,9 +11,6 @@ This repository contains a **Flask application** deployed with **Docker Compose*
 - [Setup](#setup)  
 - [Environment Variables & Secrets](#environment-variables--secrets)  
 - [Running the Stack](#running-the-stack)  
-- [Accessing Services](#accessing-services)  
-- [Healthchecks](#healthchecks)  
-- [Volumes & Persistence](#volumes--persistence)  
 
 ---
 
