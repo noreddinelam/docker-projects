@@ -1,0 +1,8 @@
+name: Call subfolder workflow
+on:
+  push:
+    branches: [main]
+
+jobs:
+  build:
+    uses: ./Docker_Project1/.github/workflows/docker-build-push.yml
