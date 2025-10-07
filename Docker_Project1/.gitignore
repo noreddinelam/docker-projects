@@ -1,0 +1,7 @@
+# Python virtual environment
+venv/
+Lib/
+Scripts/
+__pycache__/
+*.pyc
+Include/
